@@ -19,3 +19,10 @@ INSERT INTO `guitarwars` VALUES (3, '2009-09-13 09:06:35', '大谷 淳', 345900)
 INSERT INTO `guitarwars` VALUES (4, '2009-09-13 09:12:53', '深沢 麻子', 282470);
 INSERT INTO `guitarwars` VALUES (5, '2009-09-13 09:13:34', '西原 孝俊', 368420);
 INSERT INTO `guitarwars` VALUES (6, '2009-09-13 14:09:50', '山口 裕子', 64930);
+
+/*** PHPで時刻の挿入は以下 ****
+1. MySQLのNOW(）関数
+2. date('Y-m-d H:i:s')
+3. $date=new Datetime();
+   $date->format('Y-m-d H:i:s')
+
